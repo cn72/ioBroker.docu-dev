@@ -10,4 +10,13 @@ Beim Imager wird als OS "Raspberry Pi OS (other)" und dann "Raspberry Pi OS Lite
 die Einstellungen anzupassen. Folgende Einstellungen habe ich hier vorgenommen:
 Tab Allgemein: Hostname-> iodev.local; Benutzername -> pi; Passwort-> raspberry; WIFI-> das am Standort verwendete und unter Passwort das WLAN Passwort eingeben;WIFI Land-> DE;Zeitzone->Europe/Berlin; Tastaturlayout-> de
 Tab Dienste: SSH -> aktivieren; Passwort zur Authentifizierung verwenden->auwählen
-Danach speichern und danach 2x mit ja bestätigen
+Danach speichern und danach 2x mit ja bestätigen.
+Nach ein paar Minuten ist das Image auf die SD-Karte geschrieben und kann in den Pi4 eingesetzt werden. Jetzt noch Strom und der Pi4 startetund sollte sich mitden lokalen WLan verbinden. Am Router kann die IP-Adresse ermittelt werden.
+Um aufden Raspberry zugreifen zu können wird ein Terminal-Programm verwendet. Hier verwende ich Putty.
+
+Mit:
+```
+sudo apt-get update
+sudo apt-get upgrade
+```
+bringen wir das System erst einmal auf den aktuellen Stand.
