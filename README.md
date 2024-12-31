@@ -1,8 +1,8 @@
 # ioBroker.docu-dev
 
 ## Inhaltsverzeichnis
-1. [## Einleitung](#einleitung)
-2. [## Entwicklungsumgebung](#entwicklungsumgebung)
+1. [Einleitung](#einleitung)
+2. [Entwicklungsumgebung](#entwicklungsumgebung)
 
 ## Einleitung
 Diese Docu richtet sich an alle Interessierte, die eine Erweiterung (Adapter) für den ioBroker programmieren / entwikeln wollen.
