@@ -2,7 +2,8 @@
 
 ## Inhaltsverzeichnis
 1. [Einleitung](#einleitung)
-2. [Entwicklungsumgebung](#entwicklungsumgebung)
+2. [Verweise](#verwise)
+3. [Entwicklungsumgebung](#entwicklungsumgebung)
 
 ## Einleitung
 Diese Docu richtet sich an alle Interessierte, die eine Erweiterung (Adapter) für den ioBroker programmieren / entwikeln wollen.
@@ -11,6 +12,13 @@ mit dem es auch mit wenig Vorkenntnissen es möglich sein wird, einen Adapter zu
 kann aber natürlich nicht alle Möglichkeiten abbilden (bei weitem nicht), die es bei der Erstellung von Funktionen eines Adapters gibt.
 Aber zur Erlangung von Grundkenntnissen ist diese Anleitung ein guter Einstieg.
 
+[##Top](#inhaltsverzeichnis)
+
+## Verweise
+Hier will ich eine kleine  Auflistung geben, wo man noch an Infos herankommt, welche von interesse sein könnten, bzw. Lücken im hintergrundwissen stopfen...;)
+
+- [ioBroker.dev Entwicklungsseite mit Verlinkung auf Massenweise Info](https://www.iobroker.dev/) Plicht
+- 
 [##Top](#inhaltsverzeichnis)
 
 ## Entwicklungsumgebung
