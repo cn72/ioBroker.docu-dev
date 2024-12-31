@@ -12,14 +12,14 @@ mit dem es auch mit wenig Vorkenntnissen es möglich sein wird, einen Adapter zu
 kann aber natürlich nicht alle Möglichkeiten abbilden (bei weitem nicht), die es bei der Erstellung von Funktionen eines Adapters gibt.
 Aber zur Erlangung von Grundkenntnissen ist diese Anleitung ein guter Einstieg.
 
-[##Top](#inhaltsverzeichnis)
+[Top](#inhaltsverzeichnis)
 
 ## Verweise
 Hier will ich eine kleine  Auflistung geben, wo man noch an Infos herankommt, welche von interesse sein könnten, bzw. Lücken im Hintergrundwissen stopfen...;)
 
 - [ioBroker.dev Entwicklungsseite mit Verlinkung auf Massenweise Info](https://www.iobroker.dev/) Plicht
 - [Putty](https://www.putty.org/) inkl.PuttyGen
-[##Top](#inhaltsverzeichnis)
+  Top](#inhaltsverzeichnis)
 
 ## Entwicklungsumgebung
 
@@ -125,4 +125,4 @@ git config --global user.email "DeineE-Mail@domain.com"
 ```
 
 
-[##Top](#inhaltsverzeichnis)
+[Top](#inhaltsverzeichnis)
