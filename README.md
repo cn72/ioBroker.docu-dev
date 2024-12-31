@@ -2,7 +2,7 @@
 
 ## Inhaltsverzeichnis
 1. [Einleitung](#einleitung)
-2. [Verweise](#verwise)
+2. [Verweise](#verweise)
 3. [Entwicklungsumgebung](#entwicklungsumgebung)
 
 ## Einleitung
