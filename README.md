@@ -19,7 +19,8 @@ Hier will ich eine kleine  Auflistung geben, wo man noch an Infos herankommt, we
 
 - [ioBroker.dev Entwicklungsseite mit Verlinkung auf Massenweise Info](https://www.iobroker.dev/) Plicht
 - [Putty](https://www.putty.org/) inkl.PuttyGen
-  Top](#inhaltsverzeichnis)
+
+  [Top](#inhaltsverzeichnis)
 
 ## Entwicklungsumgebung
 
