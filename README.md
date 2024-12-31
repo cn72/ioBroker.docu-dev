@@ -1,9 +1,13 @@
 # ioBroker.docu-dev
 
 ## Inhaltsverzeichnis
-1. Entwicklungsumgebeung
+1. [## Einleitung](#einleitung)
+2. [## Entwicklungsumgebung](#entwicklungsumgebung)
 
-## Entwicklungsumgebeung
+## Einleitung
+Diese Docu richtet sich an alle Interessierte, die eine Erweiterung (Adapter) für den ioBroker programmieren / entwikeln wollen. Viele befassen sich mit der SmartHome Technik als Hobby und der ein oder andere steigt tiefer ein. Hier soll ein Grundgerüst an die Hand gegeben werden, mit dem es auch mit wenig Vorkenntnissen es möglich sein wird, einen Adapter zu erstellen. Diese Anleitung soll etwas Licht ins dunkle bringen, kann aber natürlich nicht alle Möglichkeiten abbilden (bei weitem nicht), die es bei der Erstellung von Funktionen eines Adapters gibt. Aber zur Erlangung von Grundkenntnissen ist diese Anleitung ein guter Einstieg.
+
+## Entwicklungsumgebung
 
 Für die Entwicklung von Adaptern ist es mehr als sinvoll, eine eigene Entwicklungsumgebung zu nutzen, um sich ein "Live-System" nicht zu beschädigen,
 bzw. sein Entwicklungssystem gleich so einrichten zu können, um eine Verbindung zu GitHub und den ioBroker Reposity herzustellen, damit Updates etc.
