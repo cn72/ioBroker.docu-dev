@@ -15,7 +15,7 @@ Aber zur Erlangung von Grundkenntnissen ist diese Anleitung ein guter Einstieg.
 [##Top](#inhaltsverzeichnis)
 
 ## Verweise
-Hier will ich eine kleine  Auflistung geben, wo man noch an Infos herankommt, welche von interesse sein könnten, bzw. Lücken im hintergrundwissen stopfen...;)
+Hier will ich eine kleine  Auflistung geben, wo man noch an Infos herankommt, welche von interesse sein könnten, bzw. Lücken im Hintergrundwissen stopfen...;)
 
 - [ioBroker.dev Entwicklungsseite mit Verlinkung auf Massenweise Info](https://www.iobroker.dev/) Plicht
 - 
