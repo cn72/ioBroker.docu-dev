@@ -110,8 +110,19 @@ Nach dem Speichern sollte man sich am Raspberry via SSH anmelden können, ohne e
 Nun wollen wir unser Entwicklungssystem noch mit unserem GitHub account verbinden. Wer noch keinen GitHub Account hat, sollte dies nun nachholen.
 Wir benötigen einen Key, damit der Rechner die Daten zu GitHub senden kann. Diesen erstellen wir mit
 ```
-ssh-keygen -t ed25519 -C "Lenovo T570"
+ssh-keygen -t ed25519
+ssh-add -K ~/.ssh/id_ed25519
 ```
-mit
+der Key wird im Verzeichnis ~/.ssh abgelegt und kann mit
+```
+cat ~/.ssh/id_ed25519.pub
+```
+angezeigt werden. Diesen Key geben wir in GitHub in unsere Sttings unter SSH und 
+jetzt konfigurieren wir noch unsere git Einstellungen, damit wir puschen und pullen können
+```
+git config --global user.name "Dein Name"
+git config --global user.email "DeineE-Mail@domain.com"
+```
+
 
 [##Top](#inhaltsverzeichnis)
