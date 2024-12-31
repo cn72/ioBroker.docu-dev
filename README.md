@@ -18,7 +18,7 @@ Aber zur Erlangung von Grundkenntnissen ist diese Anleitung ein guter Einstieg.
 Hier will ich eine kleine  Auflistung geben, wo man noch an Infos herankommt, welche von interesse sein könnten, bzw. Lücken im Hintergrundwissen stopfen...;)
 
 - [ioBroker.dev Entwicklungsseite mit Verlinkung auf Massenweise Info](https://www.iobroker.dev/) Plicht
-- 
+- [Putty](https://www.putty.org/) inkl.PuttyGen
 [##Top](#inhaltsverzeichnis)
 
 ## Entwicklungsumgebung
@@ -83,6 +83,30 @@ und zu guter letzt wird nun der ioBroker-dev Server installiert
 npm install --global @iobroker/dev-server
 ```
 Wer jetzt seine SD-Karte nimmt und mit Etcher eine Sicherung erstellt, kann immer wieder den Server neu aufsetzen, ohne die Installationen durchführen zu müssen.
+
+Um beim Anmelden am Raspberry nicht jedesmal den Benutzer und Passwort eingeben zu müssen (wird für die Arbeit mit VisualStudio Code interessant) erstellen wir uns einen ssh key und nutzen diesen für die Anmeldung.
+Am Windows Rechner (oder dem System, über das wir und via Putty mit dem Raspberry verbinden) erstellen wir mit Hilfe von PuttyGen einen Privaten und öffentlichen SSH-Key.
+Den öffentlichen Key kopieren wir zum Raspberry, indem wir folgendes tun
+```
+mkdir ~/.ssh
+nano ~/.ssh/authorized_keys
+```
+dort dan den öffentlichen Key hinein kopieren (begin mit ssh-rsa)
+und mit Strg-X->y->Enter speichern und schließen
+danach
+```
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
+```
+am einfachsten ist es, das System danach neu zu starten
+```
+sudo reboot
+```
+Am Rechner mit Putty müssen wir nun den Privaten Key hinterlegen.
+Dabei die abgespeicherte datei mit dem privaten Key bei Putty im linken Baum unter "Connection"->SSH->Auth->Credentials und dann im Feld "Private key file for authentication" hinterlegen.
+Auf der Session Seite unter Host Name den Benutzer und die IP hinterlegen (im Feld Host Name): benutzer@ipadresse
+Nach dem Speichern sollte man sich am Raspberry via SSH anmelden können, ohne ein Passwort eingeben zu müssen.
+
 Nun wollen wir unser Entwicklungssystem noch mit unserem GitHub account verbinden. Wer noch keinen GitHub Account hat, sollte dies nun nachholen.
 Wir benötigen einen Key, damit der Rechner die Daten zu GitHub senden kann. Diesen erstellen wir mit
 ```
