@@ -64,3 +64,4 @@ Wir benötigen einen Key, damit der Rechner die Daten zu GitHub senden kann. Die
 ```
 ssh-keygen -t ed25519 -C "Lenovo T570"
 ```
+mit
