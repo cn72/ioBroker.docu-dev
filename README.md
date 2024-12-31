@@ -8,7 +8,7 @@
 Für die Entwicklung von Adaptern ist es mehr als sinvoll, eine eigene Entwicklungsumgebung zu nutzen, um sich ein "Live-System" nicht zu beschädigen,
 bzw. sein Entwicklungssystem gleich so einrichten zu können, um eine Verbindung zu GitHub und den ioBroker Reposity herzustellen, damit Updates etc.
 ohne großen Aufwand veröffentlicht werden können. Solch ein Entwicklungsumgebung kann auf verschiedenen Systemen installiert werden. Es gibt halt 1000 Wege,
-die nach Rom führen. Ich habe mich hier für einen Raspberry Pi 4 entschieden - als Rechner für den DEV-Server und als Entwicklungs-Editor den "VisualCode Studio" Editor
+die nach Rom führen. Ob ein eigener Rechner verwendet wird, oder ob ich ein Linuxsystem auf einem virtuellen System aufsetze oder ob ich den DEV-Server auf einem Windowsrechner verwende ist prinzipiell egal. Da viele ja ioBroker bereits am laufn haben und sich irgendwie da schon Gedanken zu gemacht haben ist oftmals der ein oder andere mit einem Raspberry angefangen und hat dadurch den ein oder anderen Raspberry noch in der Schublade liegen. Ich habe mich hier für einen Raspberry Pi 4 entschieden - als Rechner für den DEV-Server und als Entwicklungs-Editor den "VisualCode Studio" Editor
 auf einem Windows Rechner. Installationssystem ist ein RaspberryPi 4 mit einer 16GB SD-Karte. Mit Hilfe des Raspberry Pi Imager wird das OS ohne Desktop installiert.
 Beim Imager wird als OS "Raspberry Pi OS (other)" und dann "Raspberry Pi OS Lite (64bit)" ausgewählt. Nach Auswahl der SD-Karte hat man die Möglichkeit,
 die Einstellungen anzupassen. Folgende Einstellungen habe ich hier vorgenommen:
