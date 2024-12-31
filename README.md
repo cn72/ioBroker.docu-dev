@@ -40,3 +40,27 @@ sowie
 ```
 sudo apt install -y nodejs
 ```
+Bevor der Dev-Server installiert werden kann sind folge Befehle auszuführen:
+```
+mkdir ~/.npm-global
+npm config set prefix '~/.npm-global'
+nano ~/.profile
+```
+und im Editor mit der Cursor-Taste ganz anz Ende scrolen und folgende Zeile anhängen
+```
+export PATH=~/.npm-global/bin:$PATH
+```
+mit Strg + x -> y -> Enter den Editor verlassen. Nun die Profile-Einstellungen neu laden (oder ab und anmelden bzw. das System komplett neu starten)
+```
+source ~/.profile
+```
+und zu guter letzt wird nun der ioBroker-dev Server installiert
+```
+npm install --global @iobroker/dev-server
+```
+Wer jetzt seine SD-Karte nimmt und mit Etcher eine Sicherung erstellt, kann immer wieder den Server neu aufsetzen, ohne die Installationen durchführen zu müssen.
+Nun wollen wir unser Entwicklungssystem noch mit unserem GitHub account verbinden. Wer noch keinen GitHub Account hat, sollte dies nun nachholen.
+Wir benötigen einen Key, damit der Rechner die Daten zu GitHub senden kann. Diesen erstellen wir mit
+```
+ssh-keygen -t ed25519 -C "Lenovo T570"
+```
