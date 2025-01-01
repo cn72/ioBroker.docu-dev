@@ -20,6 +20,7 @@ Aber zur Erlangung von Grundkenntnissen ist diese Anleitung ein guter Einstieg.
 ## Verweise
 Hier gibt es eine kleine  Auflistung, wo man noch an Infos herankommt, welche von Interesse sein könnten, bzw. Lücken im Hintergrundwissen stopfen...;)
 
+- [Youtube Video von haus:automation](https://www.youtube.com/watch?v=A9UETXyAmL4) diente u.a. als Leitfaden für diese Anleitung
 - [ioBroker.dev Entwicklungsseite](https://www.iobroker.dev/) Hinweis : Login nur mit GitHub Account !!!
 - [Putty](https://www.putty.org/) inkl.PuttyGen
 - [GitHub](https://github.com/) Account erstellen
@@ -155,7 +156,7 @@ cd ~
 ````
 zu erreichen.
 
-Dort können nun die einzelnen Adapter, die man erstellen bzw. an denen man arbeitet hinterlegt werden. Dabei ist zu beachten, dass jedes einzelne Adapterverzeichnis eine eigene Instanz des Dev-Servers sein wird.
+Dort können nun die einzelnen Adapter, die man erstellt bzw. an denen man arbeitet hinterlegt werden. Dabei ist zu beachten, dass jedes einzelne Adapterverzeichnis eine eigene Instanz des Dev-Servers sein wird.
 
 Die Adapterverzeichnisse haben alle die Bezeichnung
 ```
@@ -169,7 +170,7 @@ Die offizellen ioBroker Repositories sind unter
 zu finden.
 
 Dort kann man dann einen bestehenden Adapter auswählen und einen Fork als eigenes Repository erstellen.
-Den Code des aus den eigenen GitHub Account lädt man nun direkt aus Github herunter und hat so eine Verbindung vom Dev-Server zu Github. Den "Downloadlink" bekommt man, wenn man in das Repository geht und auf der Seite den grünen Button "Code<>" anklickt und dort aus dem Tab SSH den "Link" kopiert. Über Putty meldet man sich nun am Raspberry an und gibt
+Den Code aus dem eigenen GitHub Account lädt man nun direkt aus Github herunter und hat so eine Verbindung vom Dev-Server zu Github. Den "Downloadlink" bekommt man, wenn man in das Repository geht und auf der Seite den grünen Button "Code<>" anklickt und dort aus dem Tab SSH den "Link" kopiert. Über Putty meldet man sich nun am Raspberry an und gibt
 ```
 git clone "hier dann den Link ohne Anführungsstriche"
 ```
