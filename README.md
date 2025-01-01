@@ -22,7 +22,7 @@ Hier gibt es eine kleine  Auflistung, wo man noch an Infos herankommt, welche vo
 
 - [Youtube Video von haus:automation](https://www.youtube.com/watch?v=A9UETXyAmL4) diente u.a. als Leitfaden für diese Anleitung
 - [ioBroker.dev Entwicklungsseite](https://www.iobroker.dev/) Hinweis : Login nur mit GitHub Account !!!
-- [Putty](https://www.putty.org/) inkl.PuttyGen
+- [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) inkl.PuttyGen
 - [GitHub](https://github.com/) Account erstellen
 - [NPM](https://www.npmjs.com/) Account erstellen
 - [Visual Studio Code](https://code.visualstudio.com/) Editor mit Entwicklungsspezifischen Erweiterungsmöglichkeiten
