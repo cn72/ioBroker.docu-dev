@@ -17,8 +17,10 @@ Aber zur Erlangung von Grundkenntnissen ist diese Anleitung ein guter Einstieg.
 ## Verweise
 Hier gibt es eine kleine  Auflistung, wo man noch an Infos herankommt, welche von Interesse sein könnten, bzw. Lücken im Hintergrundwissen stopfen...;)
 
-- [ioBroker.dev Entwicklungsseite mit Verlinkung auf Massenweise Info](https://www.iobroker.dev/) Plicht
+- [ioBroker.dev Entwicklungsseite](https://www.iobroker.dev/) Plicht
 - [Putty](https://www.putty.org/) inkl.PuttyGen
+- [GitHub](https://github.com/) Account erstellen
+- [NPM](https://www.npmjs.com/) Account erstellen
 
   [Top](#inhaltsverzeichnis)
 
@@ -54,6 +56,7 @@ Als nächstes werden noch einige Pakete installiert.
 sudo apt install -y git vim net-tools curl
 ```
 danach installieren wir node !!! ACHTUNG !!! bitte schauen, welche Version aktuell ist und die 20 durch die aktuelle Version ersetzen
+
 Stand hier: 01.01.2025
 ```
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
@@ -105,14 +108,14 @@ am einfachsten ist es, das System danach neu zu starten
 sudo reboot
 ```
 Am Rechner mit Putty müssen wir nun den Privaten Key hinterlegen.
-Dabei die abgespeicherte datei mit dem privaten Key bei Putty im linken Baum unter "Connection"->SSH->Auth->Credentials und dann im Feld "Private key file for authentication" hinterlegen.
+Dabei die abgespeicherte Datei mit dem privaten Key (die mit der Endung .ppk) bei Putty im linken Baum unter "Connection"->SSH->Auth->Credentials und dann im Feld "Private key file for authentication" hinterlegen.
 Auf der Session Seite unter Host Name den Benutzer und die IP hinterlegen (im Feld Host Name): benutzer@ipadresse
 Nach dem Speichern sollte man sich am Raspberry via SSH anmelden können, ohne ein Passwort eingeben zu müssen.
 
-Nun wollen wir unser Entwicklungssystem noch mit unserem GitHub account verbinden. Wer noch keinen GitHub Account hat, sollte dies nun nachholen.
-Wir benötigen einen Key, damit der Rechner die Daten zu GitHub senden kann. Diesen erstellen wir mit
+Nun wollen wir unser Entwicklungssystem noch mit unserem GitHub Account verbinden. Wer noch keinen GitHub Account hat, sollte dies nun nachholen.
+Wir benötigen einen Key, damit der Rechner die Daten zu GitHub senden und empfangen kann. Hier verwenden wir die Verschlüsselungstechnik ed25519. Um eine bessere Übersicht bei den Key's zu haben nutzen wir das Flag -C und fügen dein Kommntar ein, also
 ```
-ssh-keygen -t ed25519
+ssh-keygen -t ed25519 -C "Mein Kommentar"
 ssh-add -K ~/.ssh/id_ed25519
 ```
 der Key wird im Verzeichnis ~/.ssh abgelegt und kann mit
