@@ -79,11 +79,10 @@ sudo apt install -y git vim net-tools curl gcc g++ make
 ```
 danach installieren wir node 
 
-***!!! ACHTUNG !!!***
-
-bitte schauen, welche Version aktuell ist und die 20 durch die aktuelle Version ersetzen
-
-Stand hier: 01.01.2025
+> [!CAUTION]
+>bitte schauen, welche Version aktuell ist und die 20 durch die aktuelle Version ersetzen
+>
+>Stand hier: 01.01.2025
 ```
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 ```
