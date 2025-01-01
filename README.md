@@ -32,14 +32,24 @@ Für die Entwicklung von Adaptern ist es mehr als sinvoll, eine eigene Entwicklu
 bzw. sein Entwicklungssystem gleich so einzurichten, um eine Verbindung zu GitHub und den ioBroker Reposity herzustellen, damit Updates etc.
 ohne großen Aufwand veröffentlicht werden können. Solch ein Entwicklungsumgebung kann auf verschiedenen Systemen installiert werden. Es gibt halt 1000 Wege,
 die nach Rom führen. Ob ein eigener Rechner verwendet wird, oder ob man ein Linuxsystem auf einem virtuellen System aufsetzt oder ob für den DEV-Server
-einem Windowsrechner verwendet wird ist prinzipiell egal. Da viele ja ioBroker bereits am laufen haben und sich irgendwie da schon Gedanken zu gemacht
-haben ist oftmals der ein oder andere mit einem Raspberry angefangen und hat dadurch noch den ein oder anderen Raspberry in der Schublade liegen.
+einem Windowsrechner verwendet wird ist prinzipiell egal. Da viele ja ioBroker bereits am laufen haben und eventuell auf eine neuere/stärkere Hardware umgestiegen sind hat der ein oder andere noch einen Raspberry in der Schublade liegen.
 Ich habe mich hier für einen Raspberry Pi 4 entschieden - als Rechner für den DEV-Server und als Entwicklungs-Editor den "VisualCode Studio" Editor
 auf einem Windows Rechner. Mit Hilfe des Raspberry Pi Imager wird das OS ohne Desktop installiert.
 Beim Imager wird als OS "Raspberry Pi OS (other)" und dann "Raspberry Pi OS Lite (64bit)" ausgewählt. Nach Auswahl der SD-Karte hat man die Möglichkeit,
 die Einstellungen anzupassen. Folgende Einstellungen habe ich hier vorgenommen:
-Tab Allgemein: Hostname-> iodev.local; Benutzername -> pi; Passwort-> raspberry; WIFI-> das am Standort verwendete und unter Passwort das WLAN Passwort eingeben;WIFI Land-> DE;Zeitzone->Europe/Berlin; Tastaturlayout-> de
-Tab Dienste: SSH -> aktivieren; Passwort zur Authentifizierung verwenden->auwählen
+
+* Tab Allgemein: 
+  
+  - Hostname-> iodev.local
+  - Benutzername -> pi
+  - Passwort-> raspberry
+  - WIFI-> das am Standort verwendete und unter Passwort das WLAN Passwort eingeben
+  - WIFI Land-> D
+  - ;Zeitzone->Europe/Berlin
+  - Tastaturlayout-> de
+  - Tab Dienste: SSH -> aktivieren
+  - Passwort zur Authentifizierung verwenden->auwählen
+  
 Danach speichern und danach 2x mit ja bestätigen.
 Nach ein paar Minuten ist das Image auf die SD-Karte geschrieben und kann in den Pi4 eingesetzt werden. Jetzt noch Strom und der Pi4 startet und sollte sich mit dem lokalen WLan verbinden. Am Router kann die IP-Adresse ermittelt werden.
 Um auf den Raspberry zugreifen zu können wird ein Terminal-Programm verwendet. Hier verwende ich Putty.
