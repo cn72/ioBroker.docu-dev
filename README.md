@@ -30,7 +30,10 @@ Hier gibt es eine kleine  Auflistung, wo man noch an Infos herankommt, welche vo
 - [NPM](https://www.npmjs.com/) Account erstellen
 - [Visual Studio Code](https://code.visualstudio.com/) Editor mit Entwicklungsspezifischen Erweiterungsmöglichkeiten
 
-  [Top](#inhaltsverzeichnis)
+> [!NOTE]
+> Letzte Änderung: 01.01.2025
+
+[Top](#inhaltsverzeichnis)
 
 ## Entwicklungsumgebung
 
@@ -148,6 +151,8 @@ git config --global user.name "Dein Name"
 git config --global user.email "DeineE-Mail@domain.com"
 ```
 
+> [!NOTE]
+> Letzte Änderung: 01.01.2025
 
 [Top](#inhaltsverzeichnis)
 
@@ -194,6 +199,8 @@ Durch STRG+c beendet man den Server.
 
 Einen neuen Adapter erstellt man am besten mit dem [Adapter Creator](#adapter-creator).
 
+> [!NOTE]
+> Letzte Änderung: 01.01.2025
 
 [Top](#inhaltsverzeichnis)
 
