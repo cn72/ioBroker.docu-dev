@@ -11,9 +11,9 @@
 ## Einleitung
 Diese Dokumentation richtet sich an alle Interessierte, die eine Erweiterung (Adapter) für den ioBroker programmieren / entwickeln wollen.
 Viele befassen sich mit der SmartHome Technik des ioBroker's als Hobby und der ein oder andere steigt tiefer in die Materie ein. Hier soll ein Grundgerüst an die Hand gegeben werden,
-mit dem es auch mit wenig Vorkenntnissen möglich sein wird, einen Adapter zu erstellen. Diese Anleitung soll etwas Licht ins Dunkle bringen,
+mit dem es auch mit wenig Vorkenntnissen möglich sein wird, einen Adapter zu erstellen. Diese Dokumentation soll etwas Licht ins Dunkle bringen,
 kann aber natürlich nicht alle Möglichkeiten abbilden (bei weitem nicht), die es bei der Erstellung von Funktionen eines Adapters gibt
-Aber zur Erlangung von Grundkenntnissen ist diese Anleitung ein guter Einstieg.
+Aber zur Erlangung von Grundkenntnissen ist diese Dokumentation ein guter Einstieg.
 
 > [!NOTE]
 > Letzte Änderung: 01.01.2025
@@ -23,7 +23,7 @@ Aber zur Erlangung von Grundkenntnissen ist diese Anleitung ein guter Einstieg.
 ## Verweise
 Hier gibt es eine kleine  Auflistung, wo man noch an Infos herankommt, welche von Interesse sein könnten, bzw. Lücken im Hintergrundwissen stopfen...;)
 
-- [Youtube Video von haus:automation](https://www.youtube.com/watch?v=A9UETXyAmL4) diente u.a. als Leitfaden für diese Anleitung
+- [Youtube Video von haus:automation](https://www.youtube.com/watch?v=A9UETXyAmL4) diente u.a. als Leitfaden für diese Dokumentation
 - [ioBroker.dev Entwicklungsseite](https://www.iobroker.dev/) Hinweis : Login nur mit GitHub Account !!!
 - [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) inkl.PuttyGen
 - [GitHub](https://github.com/) Account erstellen
