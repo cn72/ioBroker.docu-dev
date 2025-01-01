@@ -21,15 +21,16 @@ Hier gibt es eine kleine  Auflistung, wo man noch an Infos herankommt, welche vo
 - [Putty](https://www.putty.org/) inkl.PuttyGen
 - [GitHub](https://github.com/) Account erstellen
 - [NPM](https://www.npmjs.com/) Account erstellen
+- [Visual Studio Code](https://code.visualstudio.com/) Editor mit Entwicklungsspezifischen Erweiterungsmöglichkeiten
 
   [Top](#inhaltsverzeichnis)
 
 ## Entwicklungsumgebung
 
-Für die Entwicklung von Adaptern ist es mehr als sinvoll, eine eigene Entwicklungsumgebung zu nutzen, um ein "Live-System" nicht zu beschädigen,
-bzw. sein Entwicklungssystem gleich so einrichten zu können, um eine Verbindung zu GitHub und den ioBroker Reposity herzustellen, damit Updates etc.
+Für die Entwicklung von Adaptern ist es mehr als sinvoll, eine eigene Entwicklungsumgebung zu nutzen, um sein "Live-System" nicht zu beschädigen,
+bzw. sein Entwicklungssystem gleich so einzurichten, um eine Verbindung zu GitHub und den ioBroker Reposity herzustellen, damit Updates etc.
 ohne großen Aufwand veröffentlicht werden können. Solch ein Entwicklungsumgebung kann auf verschiedenen Systemen installiert werden. Es gibt halt 1000 Wege,
-die nach Rom führen. Ob ein eigener Rechner verwendet wird, oder ob man ein Linuxsystem auf einem virtuellen System aufsetze oder ob für den DEV-Server
+die nach Rom führen. Ob ein eigener Rechner verwendet wird, oder ob man ein Linuxsystem auf einem virtuellen System aufsetzt oder ob für den DEV-Server
 einem Windowsrechner verwendet wird ist prinzipiell egal. Da viele ja ioBroker bereits am laufen haben und sich irgendwie da schon Gedanken zu gemacht
 haben ist oftmals der ein oder andere mit einem Raspberry angefangen und hat dadurch noch den ein oder anderen Raspberry in der Schublade liegen.
 Ich habe mich hier für einen Raspberry Pi 4 entschieden - als Rechner für den DEV-Server und als Entwicklungs-Editor den "VisualCode Studio" Editor
