@@ -4,6 +4,7 @@
 1. [Einleitung](#einleitung)
 2. [Verweise](#verweise)
 3. [Entwicklungsumgebung](#entwicklungsumgebung)
+4. [Adaptercreator](#adaptercreator)
 
 ## Einleitung
 Diese Docu richtet sich an alle Interessierte, die eine Erweiterung (Adapter) für den ioBroker programmieren / entwickeln wollen.
@@ -130,5 +131,11 @@ git config --global user.name "Dein Name"
 git config --global user.email "DeineE-Mail@domain.com"
 ```
 
+
+[Top](#inhaltsverzeichnis)
+
+## Adaptercreator
+
+Bevor wir nun zur Einrichtung des Editors kommen, benötigen wir unser Datei-Grundgerüst des neuen Adapters.
 
 [Top](#inhaltsverzeichnis)
