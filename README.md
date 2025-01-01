@@ -122,8 +122,8 @@ der Key wird im Verzeichnis ~/.ssh abgelegt und kann mit
 ```
 cat ~/.ssh/id_ed25519.pub
 ```
-angezeigt werden. Diesen Key geben wir in GitHub in unsere Sttings unter SSH and GPG Keys ein. 
-Jetzt konfigurieren wir noch unsere git Einstellungen, damit wir puschen und pullen können
+angezeigt werden. Diesen Key geben wir in GitHub in unsere "Settings" (oben rechts auf das Avatar klicken, unten dann Settings) unter "SSH and GPG Keys" ein. 
+Jetzt konfigurieren wir noch unsere git Einstellungen am Rechner, damit wir puschen und pullen können
 ```
 git config --global user.name "Dein Name"
 git config --global user.email "DeineE-Mail@domain.com"
