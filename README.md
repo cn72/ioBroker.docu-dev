@@ -17,7 +17,7 @@ Aber zur Erlangung von Grundkenntnissen ist diese Anleitung ein guter Einstieg.
 ## Verweise
 Hier gibt es eine kleine  Auflistung, wo man noch an Infos herankommt, welche von Interesse sein könnten, bzw. Lücken im Hintergrundwissen stopfen...;)
 
-- [ioBroker.dev Entwicklungsseite](https://www.iobroker.dev/) Plicht
+- [ioBroker.dev Entwicklungsseite](https://www.iobroker.dev/) Hinweis : Login nur mit GitHub Account !!!
 - [Putty](https://www.putty.org/) inkl.PuttyGen
 - [GitHub](https://github.com/) Account erstellen
 - [NPM](https://www.npmjs.com/) Account erstellen
