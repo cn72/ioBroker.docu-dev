@@ -9,7 +9,7 @@
 6. [Adapter Creator](#adapter-creator)
 
 ## Einleitung
-Diese Docu richtet sich an alle Interessierte, die eine Erweiterung (Adapter) für den ioBroker programmieren / entwickeln wollen.
+Diese Dokumentation richtet sich an alle Interessierte, die eine Erweiterung (Adapter) für den ioBroker programmieren / entwickeln wollen.
 Viele befassen sich mit der SmartHome Technik des ioBroker's als Hobby und der ein oder andere steigt tiefer in die Materie ein. Hier soll ein Grundgerüst an die Hand gegeben werden,
 mit dem es auch mit wenig Vorkenntnissen möglich sein wird, einen Adapter zu erstellen. Diese Anleitung soll etwas Licht ins Dunkle bringen,
 kann aber natürlich nicht alle Möglichkeiten abbilden (bei weitem nicht), die es bei der Erstellung von Funktionen eines Adapters gibt
