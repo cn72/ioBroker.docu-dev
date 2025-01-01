@@ -56,7 +56,8 @@ die Einstellungen anzupassen. Folgende Einstellungen habe ich hier vorgenommen:
   - WIFI Land-> DE
   - Zeitzone->Europe/Berlin
   - Tastaturlayout-> de
-  - Tab Dienste: SSH -> aktivieren
+* Tab Dienste:
+  - SSH -> aktivieren
   - Passwort zur Authentifizierung verwenden->auwählen
   
 Danach speichern und danach 2x mit ja bestätigen.
