@@ -38,7 +38,7 @@ Hier gibt es eine kleine  Auflistung, wo man noch an Infos herankommt, welche vo
 ## Entwicklungsumgebung
 
 Für die Entwicklung von Adaptern ist es mehr als sinvoll, eine eigene Entwicklungsumgebung zu nutzen, um sein "Live-System" nicht zu beschädigen,
-bzw. sein Entwicklungssystem gleich so einzurichten, um eine Verbindung zu GitHub und den ioBroker Reposity herzustellen, damit Updates etc.
+bzw. sein Entwicklungssystem gleich so einzurichten, um eine Verbindung zu GitHub und den ioBroker Repository herzustellen, damit Updates etc.
 ohne großen Aufwand veröffentlicht werden können. Solch ein Entwicklungsumgebung kann auf verschiedenen Systemen installiert werden. Es gibt halt 1000 Wege,
 die nach Rom führen. Ob ein eigener Rechner verwendet wird, oder ob man ein Linuxsystem auf einem virtuellen System aufsetzt oder ob für den DEV-Server
 einem Windowsrechner verwendet wird ist prinzipiell egal. Da viele ja ioBroker bereits am laufen haben und eventuell auf eine neuere/stärkere Hardware umgestiegen sind hat der ein oder andere noch einen Raspberry in der Schublade liegen.
