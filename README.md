@@ -72,7 +72,7 @@ mkdir ~/.npm-global
 npm config set prefix '~/.npm-global'
 nano ~/.profile
 ```
-und im Editor (nano) mit der Cursor-Taste ganz anz Ende scrolen und folgende Zeile anhängen
+und im Editor (nano) mit der Cursor-Taste ganz ans Ende scrolen und folgende Zeile anhängen
 ```
 export PATH=~/.npm-global/bin:$PATH
 ```
