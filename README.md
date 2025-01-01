@@ -4,7 +4,9 @@
 1. [Einleitung](#einleitung)
 2. [Verweise](#verweise)
 3. [Entwicklungsumgebung](#entwicklungsumgebung)
-4. [Adaptercreator](#adaptercreator)
+4. [Adapter](#adapter)
+5. [Visual Studio Code](#visual-studio-code)
+6. [Adapter Creator](#adapter-creator)
 
 ## Einleitung
 Diese Docu richtet sich an alle Interessierte, die eine Erweiterung (Adapter) für den ioBroker programmieren / entwickeln wollen.
@@ -144,8 +146,56 @@ git config --global user.email "DeineE-Mail@domain.com"
 
 [Top](#inhaltsverzeichnis)
 
-## Adaptercreator
+## Adapter
 
-Bevor wir nun zur Einrichtung des Editors kommen, benötigen wir unser Datei-Grundgerüst des neuen Adapters.
+Der Speicherbereich auf dem Entwicklungssystem liegt im Home Verzeichnis des Benutzers, den wir bei der Installation des Dev-Servers verwendet haben. Unter Linux ist das Homeverzeichnis mit
+```
+cd ~
+````
+zu erreichen.
+
+Dort können nun die einzelnen Adapter, die man erstellen bzw. an denen man arbeitet hinterlegt werden. Dabei ist zu beachten, dass jedes einzelne Adapterverzeichnis eine eigene Instanz des Dev-Servers sein wird.
+
+Die Adapterverzeichnisse haben alle die Bezeichnung
+```
+ioBroker.adaptername
+```
+Gerade für Neulinge bietet es sich an, in GitHub aus dem bestehenden Adaptern diese als Kopie (fork) in das lokale Verzeichnis anzulegen und dann zu schauen, wie was gemacht wurde und was passiert wenn zu "spielen" (learning by doing)
+Die offizellen ioBroker Repositories sind unter
+
+[https://github.com/orgs/ioBroker/repositories](https://github.com/orgs/ioBroker/repositories)
+
+zu finden.
+
+Dort kann man dann einen bestehenden Adapter auswählen und einen Fork als eigenes Repository erstellen.
+Den Code des aus den eigenen GitHub Account lädt man nun direkt aus Github herunter und hat so eine Verbindung vom Dev-Server zu Github. Den "Downloadlink" bekommt man, wenn man in das Repository geht und auf der Seite den grünen Button "Code<>" anklickt und dort aus dem Tab SSH den "Link" kopiert. Über Putty meldet man sich nun am Raspberry an und gibt
+```
+git clone "hier dann den Link ohne Anführungsstriche"
+```
+ein.
+
+Darauf hin wird in das Homevereichnis der Adapter kopiert.
+Jetzt muss noch das Verzeichnis aufgerufen und der DEV-Sever installiert werden.
+```
+cd ioBroker.adaptername
+dev-sever setup
+```
+Die Installation des Servers dauert etwas. Nach der Installation startet man den Server durch
+```
+dev-server watch
+```
+nach einiger Zeit ist der Server über den Browser mit der IP Adresse auf dem Port 8081 erreichbar. Die Seiten sollten jedem bekannt vorkommen.
+Durch STRG+c beendet man den Server.
+
+Einen neuen Adapter erstellt man am besten mit dem [Adapter Creator](#adapter-creator).
+
+
+[Top](#inhaltsverzeichnis)
+
+## Visual Studio Code
+
+[Top](#inhaltsverzeichnis)
+
+## Adapter Creator
 
 [Top](#inhaltsverzeichnis)
