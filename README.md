@@ -46,8 +46,8 @@ die Einstellungen anzupassen. Folgende Einstellungen habe ich hier vorgenommen:
   - Benutzername -> pi
   - Passwort-> raspberry
   - WIFI-> das am Standort verwendete und unter Passwort das WLAN Passwort eingeben
-  - WIFI Land-> D
-  - ;Zeitzone->Europe/Berlin
+  - WIFI Land-> DE
+  - Zeitzone->Europe/Berlin
   - Tastaturlayout-> de
   - Tab Dienste: SSH -> aktivieren
   - Passwort zur Authentifizierung verwenden->auwählen
@@ -56,7 +56,7 @@ Danach speichern und danach 2x mit ja bestätigen.
 Nach ein paar Minuten ist das Image auf die SD-Karte geschrieben und kann in den Pi4 eingesetzt werden. Jetzt noch Strom und der Pi4 startet und sollte sich mit dem lokalen WLan verbinden. Am Router kann die IP-Adresse ermittelt werden.
 Um auf den Raspberry zugreifen zu können wird ein Terminal-Programm verwendet. Hier verwende ich Putty.
 
-Wir melden uns als Benutzer: pi an, nicht als root. Hat man zum Beispiel ein Linuxsystem auf einer virtuellen Umgebung installiert, bitte einen Benutzer anlegen und sudo installieren / Benutzer zuordnen und dann mit diesem Benutzer arbeiten.
+Wir melden uns als Benutzer: pi an. Hat man zum Beispiel ein Linuxsystem auf einer virtuellen Umgebung installiert, bitte einen Benutzer anlegen und sudo installieren / Benutzer zuordnen und dann mit diesem Benutzer arbeiten.
 
 
 Mit:
@@ -67,19 +67,20 @@ sudo apt-get upgrade
 bringen wir das System erst einmal auf den aktuellen Stand.
 Als nächstes werden noch einige Pakete installiert.
 ```
-sudo apt install -y git vim net-tools curl
+sudo apt install -y git vim net-tools curl gcc g++ make
 ```
-danach installieren wir node !!! ACHTUNG !!! bitte schauen, welche Version aktuell ist und die 20 durch die aktuelle Version ersetzen
+danach installieren wir node 
+
+***!!! ACHTUNG !!!***
+
+bitte schauen, welche Version aktuell ist und die 20 durch die aktuelle Version ersetzen
 
 Stand hier: 01.01.2025
 ```
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 ```
 und danach
-```
-sudo apt install -y gcc g++ make
-```
-sowie
+
 ```
 sudo apt install -y nodejs
 ```
