@@ -211,16 +211,16 @@ Als Editor eignet sich prinzipiell jeder Texteditor. Der Visual Studio Code (VSC
 
 Als Erweiterung (Extension) installieren wir Remote - SSH von Microsoft, damit wir direkt auf den Speicherort auf dem Raspberry zugreifen können.
 
-Um auch hier nicht jedesmal das Passwort für den Raspberry eingeben müssen, rstellen wir uns am Windowsrechner auch einen SSH-Key. Dazu öffnen wir die Konsole am Windowsrechner (cmd) als Administrator und geben
+Um auch hier nicht jedesmal das Passwort für den Raspberry eingeben müssen, erstellen wir uns am Windowsrechner auch einen SSH-Key. Dazu öffnen wir die Konsole am Windowsrechner (cmd) als Administrator und geben
 ```
 ssh-keygen -t ed25519 -C "Kommentar/Bezeichnung des Rechners/ist Optional"
 ```
 und bestätigen die Fragen einfach mit Enter.
-Jetzt wird im Buntzerverzeichnis im Ordner .ssh der Private und Public Key gespeichert. Den Public Key speichern wir beim Entwicklungsrechner (Raspberry) in der Datei autorized_keys. (Dazu die Datei auf dem Windowsrechner mit einem Editor öffnen und den Key in die Zwischenablage kopieren.)
+Jetzt wird im Buntzerverzeichnis im Ordner .ssh der Private und Public Key gespeichert. Den Public Key speichern wir beim Entwicklungsrechner (Raspberry) in der Datei authorized_keys. (Dazu die Datei auf dem Windowsrechner mit einem Editor öffnen und den Key in die Zwischenablage kopieren.)
 ```
 nano ~/.ssh/authorized_keys
 ```
-dort mit der Cursor down Taste ans Ende scrollen und den Key einfügen. ssh-rsa voranstellen und mit Maus Rechtsklick den Key einfügen. Eventuelle Zeilenumbrüche müssen entfernt werden Mit STRG+C , Y und Enter speichern.
+dort mit der Cursor down Taste ans Ende scrollen. ssh-rsa voranstellen und mit Maus Rechtsklick den Key einfügen. Eventuelle Zeilenumbrüche müssen entfernt werden. Mit STRG+C , Y und Enter speichern.
 Beispiel, wie es aussehen soll:
 ```
 ssh-rsa 1lZDI1NTE5AAAAIGUxrbUG86I+......jPg9LdpuwMEJVgJiZ6iNeOBRaAkvoX8u Laptop Win11
@@ -231,7 +231,7 @@ ssh pi@ipadresse_raspberry
 ```
 ein. Nach Bestätigung (fingerprint) müssen wir nun das Verzeichnis auswählen, in dem der Adapter Quellcode liegt, den wir bearbeiten wollen.
 Wenn alles richtig gemacht wurde wird am linken Rand die Verzeichnisstrucktur angezeigt.
-Wir können nun die einzelnen Dateien bearbeiten. Mit STRG+S wird die Datei gespeichert. Der VSC-Editor erkennt, dass es sich um ein Github Verzeichnis handelt und wir können direkt vom Editor unsere Änderungen "Comitten" und die Änderungen werden nach github hochgeladen.
+Wir können nun die einzelnen Dateien bearbeiten. Mit STRG+S wird die Datei gespeichert. Der VSC-Editor erkennt, dass es sich um ein Github Verzeichnis handelt und wir können direkt vom Editor unsere Änderungen "Comitten" (Message nicht vergessen) und die Änderungen werden nach github hochgeladen.
 
 Wenn wir den DEV-Server am Raspberry für den Adapter getartet haben, werden die gemachten Änderungen direkt übernommen und wir können das Ergebnis am Browser sehen.
 
