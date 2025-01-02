@@ -178,6 +178,7 @@ Die offizellen ioBroker Repositories sind unter
 zu finden.
 
 Dort kann man dann einen bestehenden Adapter auswählen und einen Fork als eigenes Repository erstellen.
+Durch den Fork hat man die Möglichkeit behalten, evtl. Änderungen via Pull Requests zurück in das Hauptrepository zu senden.
 Den Code aus dem eigenen GitHub Account lädt man nun direkt aus Github herunter und hat so eine Verbindung vom Dev-Server zu Github. Den "Downloadlink" bekommt man, wenn man in das Repository geht und auf der Seite den grünen Button "Code<>" anklickt und dort aus dem Tab SSH den "Link" kopiert. Über Putty meldet man sich nun am Raspberry an und gibt
 ```
 git clone "hier dann den Link ohne Anführungsstriche"
@@ -200,11 +201,42 @@ Durch STRG+c beendet man den Server.
 Einen neuen Adapter erstellt man am besten mit dem [Adapter Creator](#adapter-creator).
 
 > [!NOTE]
-> Letzte Änderung: 01.01.2025
+> Letzte Änderung: 02.01.2025
 
 [Top](#inhaltsverzeichnis)
 
 ## Visual Studio Code
+
+Als Editor eignet sich prinzipiell jeder Texteditor. Der Visual Studio Code (VSC) Editor zeichnet sich u.a. dadurch aus, dass es für viele Sprachen und Funktionen wie Git  Erweiterungen gibt, um sich die Arbeit leichter gestalten zu können. Die Installation des Editor sollte kein Problem darstellen.
+
+Als Erweiterung (Extension) installieren wir Remote - SSH von Microsoft, damit wir direkt auf den Speicherort auf dem Raspberry zugreifen können.
+
+Um auch hier nicht jedesmal das Passwort für den Raspberry eingeben müssen, rstellen wir uns am Windowsrechner auch einen SSH-Key. Dazu öffnen wir die Konsole am Windowsrechner (cmd) als Administrator und geben
+```
+ssh-keygen -t ed25519 -C "Kommentar/Bezeichnung des Rechners/ist Optional"
+```
+und bestätigen die Fragen einfach mit Enter.
+Jetzt wird im Buntzerverzeichnis im Ordner .ssh der Private und Public Key gespeichert. Den Public Key speichern wir beim Entwicklungsrechner (Raspberry) in der Datei autorized_keys. (Dazu die Datei auf dem Windowsrechner mit einem Editor öffnen und den Key in die Zwischenablage kopieren.)
+```
+nano ~/.ssh/authorized_keys
+```
+dort mit der Cursor down Taste ans Ende scrollen und den Key einfügen. ssh-rsa voranstellen und mit Maus Rechtsklick den Key einfügen. Eventuelle Zeilenumbrüche müssen entfernt werden Mit STRG+C , Y und Enter speichern.
+Beispiel, wie es aussehen soll:
+```
+ssh-rsa 1lZDI1NTE5AAAAIGUxrbUG86I+......jPg9LdpuwMEJVgJiZ6iNeOBRaAkvoX8u Laptop Win11
+```
+nun können wir beim VCS Editor unten links die blauen Pfeile anklicken und geben oben
+```
+ssh pi@ipadresse_raspberry
+```
+ein. Nach Bestätigung (fingerprint) müssen wir nun das Verzeichnis auswählen, in dem der Adapter Quellcode liegt, den wir bearbeiten wollen.
+Wenn alles richtig gemacht wurde wird am linken Rand die Verzeichnisstrucktur angezeigt.
+Wir können nun die einzelnen Dateien bearbeiten. Mit STRG+S wird die Datei gespeichert. Der VSC-Editor erkennt, dass es sich um ein Github Verzeichnis handelt und wir können direkt vom Editor unsere Änderungen "Comitten" und die Änderungen werden nach github hochgeladen.
+
+Wenn wir den DEV-Server am Raspberry für den Adapter getartet haben, werden die gemachten Änderungen direkt übernommen und wir können das Ergebnis am Browser sehen.
+
+> [!NOTE]
+> Letzte Änderung: 02.01.2025
 
 [Top](#inhaltsverzeichnis)
 
