@@ -250,14 +250,18 @@ Bevor wir uns jetzt an die Erstellung eines eigenen Adapters mit Hilfe des Adapt
 Wir erklären hier nicht die einzelnen Dinge, sondern verweisen auf Seiten, wo dies möglichst verständlich erklärt wird.
 
 Wir verweisen auch auf nicht mehr gültige Dinge (deprecated), da diese noch bei einigen Adaptern auftauchen, und man dann die Zusammenhänge besser erkennen kann.
-Zuerst noch eine kurze Darlegung der Verzeichnisstruktur eines Adapters.
 
-|Bescheibung|Link|Anmerkung|
-|offizelle Dokuseite|(https://github.com/ioBroker/ioBroker.docs)|english|
+| Bescheibung | Link | Anmerkung |
+|---|---|---|
+| offizelle Dokuseite |https://github.com/ioBroker/ioBroker.docs | english |
+||https://github.com/ioBroker/ioBroker.docs/tree/master/docs/de|deutsch|
+|Adapter Entwicklung<br>offizelle Dokuseite|https://github.com/ioBroker/ioBroker.docs/tree/master/docs/en/dev|english|
+||https://github.com/ioBroker/ioBroker.docs/tree/master/docs/de/dev|deutsch|
+
 
 
 > [!NOTE]
-> Letzte Änderung: 02.01.2025
+> Letzte Änderung: 03.01.2025
 
 [Top](#inhaltsverzeichnis)
 
