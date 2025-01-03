@@ -253,17 +253,17 @@ Wir verweisen auch auf nicht mehr gültige Dinge (wegen Historie, wie es vorher 
 
 | Bescheibung | Link | Anmerkung |
 |---|---|---|
-| offizelle Dokuseite |https://github.com/ioBroker/ioBroker.docs | english |
-||https://github.com/ioBroker/ioBroker.docs/tree/master/docs/de|deutsch|
-|Adapter Entwicklung<br>offizelle Dokuseite|https://github.com/ioBroker/ioBroker.docs/tree/master/docs/en/dev|english|
-||https://github.com/ioBroker/ioBroker.docs/tree/master/docs/de/dev|deutsch|
-|adapter-dev Beschreibung,<br>Translate Funktion|https://github.com/ioBroker/adapter-dev/blob/main/README.md|english
-|Historie: Translate Funktion<br>mit Gulp|https://forum.iobroker.net/topic/19047/gulp-ist-kein-hexenwerk-auto-translation|verweis Forum|
-|Adapter-Core|https://github.com/ioBroker/adapter-core/blob/master/README.md|english|
-|Aufbau der jsonConfig.json Datei<br>für das Admin Panel eines<br>Adapters|https://github.com/ioBroker/ioBroker.admin/blob/v6.11.0/src/src/components/JsonConfigComponent/SCHEMA.md|english|
-|dto.neuere Version|https://github.com/ioBroker/ioBroker.admin/blob/v7.0.1/packages/jsonConfig/SCHEMA.md|english|
-|Demo-Adapter<br>zur jsonConfig.json|https://github.com/mcm4iob/ioBroker.jsonconfig-demo|entweder per GitHub installieren<br>oder forken (s.o.)|
-|Infos zur<br>Adapter Konfiguration<br>via reactJS|https://github.com/ioBroker/adapter-react-v5/blob/main/README.md|english|
+| offizelle Dokuseite |[GitHub](https://github.com/ioBroker/ioBroker.docs) | english |
+||[Github](https://github.com/ioBroker/ioBroker.docs/tree/master/docs/de)|deutsch|
+|Adapter Entwicklung<br>offizelle Dokuseite|[Github](https://github.com/ioBroker/ioBroker.docs/tree/master/docs/en/dev)|english|
+||[Github](https://github.com/ioBroker/ioBroker.docs/tree/master/docs/de/dev)|deutsch|
+|adapter-dev Beschreibung,<br>Translate Funktion|[Github](https://github.com/ioBroker/adapter-dev/blob/main/README.md)|english
+|Historie: Translate Funktion<br>mit Gulp|[Forum ioBroker](https://forum.iobroker.net/topic/19047/gulp-ist-kein-hexenwerk-auto-translation)|verweis Forum|
+|Adapter-Core|[Github](https://github.com/ioBroker/adapter-core/blob/master/README.md)|english|
+|Aufbau der jsonConfig.json Datei<br>für das Admin Panel eines<br>Adapters|[Github](https://github.com/ioBroker/ioBroker.admin/blob/v6.11.0/src/src/components/JsonConfigComponent/SCHEMA.md)|english|
+|dto.neuere Version|[Github](https://github.com/ioBroker/ioBroker.admin/blob/v7.0.1/packages/jsonConfig/SCHEMA.md)|english|
+|Demo-Adapter<br>zur jsonConfig.json|[Github](https://github.com/mcm4iob/ioBroker.jsonconfig-demo)|entweder per GitHub installieren<br>oder forken (s.o.)|
+|Infos zur<br>Adapter Konfiguration<br>via reactJS|[Github](https://github.com/ioBroker/adapter-react-v5/blob/main/README.md)|english|
 
 
 > [!NOTE]
