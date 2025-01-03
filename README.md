@@ -250,24 +250,18 @@ Bevor wir uns jetzt an die Erstellung eines eigenen Adapters mit Hilfe des Adapt
 Wir erklären hier nicht die einzelnen Dinge, sondern verweisen auf Seiten, wo dies möglichst verständlich erklärt wird.
 
 Wir verweisen auch auf nicht mehr gültige Dinge (deprecated), da diese noch bei einigen Adaptern auftauchen, und man dann die Zusammenhänge besser erkennen kann.
-Zuerst noch eine kurze Darlegung der Verzeichnisstruktur eines Adapters.
 
-|Verzeichnis|Datei|Beschreibung|
-|---------------------------|--------------------------------------------------|-------------|
-|.dev-server||Konfiguartionsverzeichnis für den DEV-Server, hier nichts bearbeiten|
-|.github||Konfigurationsverzeichnis für GitHub, hier nichts bearbeiten|
-|.vscode||Konfigurationsverzeichnis für Visual Studio Code, hier nichts bearbeiten|
-|admin||Verzeichnis für die Erstellung des Admin Panels eines Adapters|
-|admin/i18N/||Verzeichnis für die Übersetzungen in verschiedene Sprachen. Siehe hierzu den Abschnitt zu i18n unten|
-|admin|jsonConfig.json|Aufbau des Admin-Bereiches mit Feldern zur Einstellung des Adapters // seid Admin V5|
-|||[Adapter Development Documentation (alte Version)](https://github.com/ioBroker/ioBroker/wiki/Adapter-Development-Documentation#deploying)|
-|||[Adapter Development Documentation (aktuelle Version)](https://github.com/ioBroker/ioBroker.docs/tree/master/docs/de/dev) <br>hier wird noch von index.html gesprochen|
-|admin|index.html|Vorgängervariante zu jsonConfig.json // < Admin V3 ???|
-|admin|index_m.html|Vorgängervariante zu jsonConfig.json // < Admin V5 ???|
+| Bescheibung | Link | Anmerkung |
+|---|---|---|
+| offizelle Dokuseite |https://github.com/ioBroker/ioBroker.docs | english |
+||https://github.com/ioBroker/ioBroker.docs/tree/master/docs/de|deutsch|
+|Adapter Entwicklung<br>offizelle Dokuseite|https://github.com/ioBroker/ioBroker.docs/tree/master/docs/en/dev|english|
+||https://github.com/ioBroker/ioBroker.docs/tree/master/docs/de/dev|deutsch|
+
 
 
 > [!NOTE]
-> Letzte Änderung: 02.01.2025
+> Letzte Änderung: 03.01.2025
 
 [Top](#inhaltsverzeichnis)
 
