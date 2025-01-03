@@ -261,7 +261,7 @@ Ich verweisen auch auf nicht mehr gültige Dinge (wegen Historie, wie es vorher 
 |Adapter-Core|[Github](https://github.com/ioBroker/adapter-core/blob/master/README.md)|english|
 |Aufbau der jsonConfig.json Datei<br>für das Admin Panel eines<br>Adapters|[Github](https://github.com/ioBroker/ioBroker.admin/blob/v6.11.0/src/src/components/JsonConfigComponent/SCHEMA.md)|english|
 |dto.neuere Version|[Github](https://github.com/ioBroker/ioBroker.admin/blob/v7.0.1/packages/jsonConfig/SCHEMA.md)|english|
-|Demo-Adapter<br>zur jsonConfig.json|[Github](https://github.com/mcm4iob/ioBroker.jsonconfig-demo)|entweder per GitHub installieren<br>oder forken (s.o.)|
+|Demo-Adapter<br>zur jsonConfig.json|[Github](https://github.com/mcm4iob/ioBroker.jsonconfig-demo)|entweder per GitHub installieren<br>oder forken (s.o.)<br>oder einfach nur studieren|
 |Infos zur<br>Adapter Konfiguration<br>via reactJS|[Github](https://github.com/ioBroker/adapter-react-v5/blob/main/README.md)|english|
 
 
