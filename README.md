@@ -14,7 +14,7 @@ Diese Dokumentation richtet sich an alle Interessierte, die eine Erweiterung (Ad
 Viele befassen sich mit der SmartHome Technik des ioBroker's als Hobby und der ein oder andere steigt tiefer in die Materie ein. Hier soll ein Grundgerüst an die Hand gegeben werden,
 mit dem es auch mit wenig Vorkenntnissen möglich sein wird, einen Adapter zu erstellen. Diese Dokumentation soll etwas Licht ins Dunkle bringen,
 kann aber natürlich nicht alle Möglichkeiten abbilden (bei weitem nicht), die es bei der Erstellung von Funktionen eines Adapters gibt
-Aber zur Erlangung von Grundkenntnissen ist diese Dokumentation ein guter Einstieg.
+Aber zur Erlangung von Grundkenntnissen soll diese Dokumentation ein guter Einstieg sein.
 
 > [!NOTE]
 > Letzte Änderung: 01.01.2025
@@ -22,7 +22,7 @@ Aber zur Erlangung von Grundkenntnissen ist diese Dokumentation ein guter Einsti
 [Top](#inhaltsverzeichnis)
 
 ## Verweise
-Hier gibt es eine kleine  Auflistung, wo man noch an Infos herankommt, welche von Interesse sein könnten, bzw. Lücken im Hintergrundwissen stopfen...;)
+Hier gibt es eine kleine  Auflistung, wo man noch an Infos herankommt, welche von Interesse sein könnten.
 
 - [Youtube Video von haus:automation](https://www.youtube.com/watch?v=A9UETXyAmL4) diente u.a. als Leitfaden für diese Dokumentation
 - [ioBroker.dev Entwicklungsseite](https://www.iobroker.dev/) Hinweis : Login nur mit GitHub Account !!!
@@ -110,7 +110,6 @@ und zu guter letzt wird nun der ioBroker-dev Server installiert
 ```
 npm install --global @iobroker/dev-server
 ```
-Wer jetzt seine SD-Karte nimmt und mit Etcher eine Sicherung erstellt, kann immer wieder den Server neu aufsetzen, ohne die Installationen durchführen zu müssen.
 
 Um beim Anmelden am Raspberry nicht jedesmal den Benutzer und Passwort eingeben zu müssen (wird für die Arbeit mit VisualStudio Code interessant) erstellen wir uns einen ssh key und nutzen diesen für die Anmeldung.
 Am Windows Rechner (oder dem System, über das wir und via Putty mit dem Raspberry verbinden) erstellen wir mit Hilfe von PuttyGen einen Privaten und öffentlichen SSH-Key.
@@ -245,17 +244,17 @@ Man kann sich auch direkt aus dem VCS-Editor am raspberry via Terminal anmelden.
 
 ## Backgrounds
 
-Bevor wir uns jetzt an die Erstellung eines eigenen Adapters mit Hilfe des Adapter Creators machen, werden wir hier einiges an Hintergrundwissen zusammenstellen. Dabei hilft es ungemein sich wie oben beschrieben, bestehende Adapter im Aufbau anzuschauen und möglichst auch versuchen zu verstehen, wieso welche Funktion verwendet wird.
+Bevor wir uns jetzt an die Erstellung eines eigenen Adapters mit Hilfe des Adapter Creators machen, werden ich hier einiges an Hintergrundwissen zusammenstellen. Dabei hilft es ungemein sich wie oben beschrieben, bestehende Adapter im Aufbau anzuschauen und möglichst auch versuchen zu verstehen, wieso welche Funktion verwendet wird.
 
-Wir erklären hier nicht die einzelnen Dinge, sondern verweisen auf Seiten, wo dies möglichst verständlich erklärt wird.
+Ich erklären hier nicht die einzelnen Dinge, sondern verweisen auf Seiten, wo dies möglichst verständlich erklärt wird.
 
-Wir verweisen auch auf nicht mehr gültige Dinge (wegen Historie, wie es vorher gemacht wurde), da diese noch bei einigen Adaptern auftauchen, und man dann die Zusammenhänge besser erkennen kann.
+Ich verweisen auch auf nicht mehr gültige Dinge (wegen Historie, wie es vorher gemacht wurde), da diese noch bei einigen Adaptern auftauchen, und man dann die Zusammenhänge besser erkennen kann.
 
 | Bescheibung | Link | Anmerkung |
 |---|---|---|
-| offizelle Dokuseite |[GitHub](https://github.com/ioBroker/ioBroker.docs) | english |
+| offizielle Dokuseite |[GitHub](https://github.com/ioBroker/ioBroker.docs) | english |
 ||[Github](https://github.com/ioBroker/ioBroker.docs/tree/master/docs/de)|deutsch|
-|Adapter Entwicklung<br>offizelle Dokuseite|[Github](https://github.com/ioBroker/ioBroker.docs/tree/master/docs/en/dev)|english|
+|Adapter Entwicklung<br>offizielle Dokuseite|[Github](https://github.com/ioBroker/ioBroker.docs/tree/master/docs/en/dev)|english|
 ||[Github](https://github.com/ioBroker/ioBroker.docs/tree/master/docs/de/dev)|deutsch|
 |adapter-dev Beschreibung,<br>Translate Funktion|[Github](https://github.com/ioBroker/adapter-dev/blob/main/README.md)|english
 |Historie: Translate Funktion<br>mit Gulp|[Forum ioBroker](https://forum.iobroker.net/topic/19047/gulp-ist-kein-hexenwerk-auto-translation)|verweis Forum|
